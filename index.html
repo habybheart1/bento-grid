@@ -17,8 +17,8 @@
     @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
   </style>
 </head>
-<body class="font-[DM Sans] bg-[#e5e8f7] md:max-h-screen">
-  <main class="mx-auto px-4 py-10 grid md:grid-cols-4 gap-6">
+<body class="font-[DM Sans] bg-[#e5e8f7] md:min-h-screen md:max-w-max">
+  <main class="mx-auto px-4 py-10 grid md:grid-cols-[repeat(4,256px)] md:grid-rows-[324px_247px_246px] gap-4 ">
     <section class="bg-[#7650dc] rounded-lg p-6 md:col-start-2 md:col-span-2 md:row-start-1">
       <div class="text-center text-white mx-auto">
         <h1 class="text-4xl font-semibold mb-4">Social Media <br><span class="text-[#ffcb6b]">10x</span> <i>Faster</i> <br> with AI</h1>
@@ -51,32 +51,36 @@
         <p class="text-lg mt-3 leading-none p-3 blur-[0.3px] text-[#121212]">Optimize post timings to publish content at the perfect time for your audience.</p>
       </div>
     </section>
-    <section class="bg-[#7650dc] rounded-lg px-6 py-3 text-center text-white mx-auto md:col-start-3 md:row-start-3 md:row-span-2">
-      <div>
-        <img src="./assets/images/illustration-grow-followers.webp" width="w-50 mx-auto" alt="grow followers icon">
-        <p class="text-2xl leading-none px-10 py-6">Grow followers with non-stop content.</p>
-      </div>
-    </section>
-    <section >
-      <div>
-        <h2>>56%</h2>
-        <p>faster audience growth</p>
-        <img src="./assets/images/illustration-audience-growth.webp" alt="faster audience growth icon">
-      </div>
-    </section>
-    <section>
-      <div>
-        <h2>Create and schedule content <span>quicker.</span></h2>
+    <section class="bg-[#7650dc] rounded-lg px-6 py-3 text-center text-white mx-auto md:flex  md:col-start-3 md:row-start-3 md:col-span-2">
+      <div class="md:flex-row md:flex">
         <div>
-          <img src="./assets/images/illustration-create-post.webp" alt="create content icon">
+          <img src="./assets/images/illustration-grow-followers.webp" width="w-50 mx-auto" alt="grow followers icon">
+        </div>
+        <div class="md:flex md:align-center md:justify-center">
+          <p class="text-2xl leading-none px-10 py-6">Grow followers with non-stop content.</p>
         </div>
       </div>
     </section>
-    <section>
+    <section class="bg-white rounded-lg p-6 md:row-start-3 md:col-start-2">
       <div>
-        <h2>Write your content using AI.</h2>
+        <h2 class="text-3xl font-semibold text-[#121212] mb-2">>56%</h2>
+        <p class="text-sm text-[#121212] opacity-75 pb-4">faster audience growth</p>
+        <img src="./assets/images/illustration-audience-growth.webp" class="w-35" alt="faster audience growth icon">
+      </div>
+    </section>
+    <section class="bg-pink-100 rounded-lg px-3 py-4 md:col-start-1 md:row-start-1">
+      <div class="px-4">
+        <h2 class="text-2xl leading-none tracking-tighter text-left mb-4">Create and schedule content <span class="text-[#7650dc] italic">quicker.</span></h2>
         <div>
-          <img src="./assets/images/illustration-ai-content.webp" alt="AI content icon">
+          <img src="./assets/images/illustration-create-post.webp" class="w-40" alt="create content icon">
+        </div>
+      </div>
+    </section>
+    <section class="bg-[#ffcb6b] rounded-lg p-4 md:col-start-1 row-start-2 row-span-2 md:w-fit">
+      <div>
+        <h2 class="text-3xl leading-none tracking-tighter text-[#121212] mb-4">Write your content <br>using AI.</h2>
+        <div>
+          <img src="./assets/images/illustration-ai-content.webp" class="w-45" alt="AI content icon">
         </div>
       </div>
     </section>
